@@ -1,0 +1,41 @@
+    * {
+        margin: 0;
+    }
+    
+    body {
+        display: flex;
+        height: 100vh;
+    }
+    
+    table {
+        margin-left: 350px;
+        margin-top: 50px;
+    }
+    
+    table,
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    td {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        font: normal 52px Arial;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    button {
+        background-color: silver;
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-top: 450px;
+    }
+    
+    button:hover {
+        opacity: .7;
+    }
